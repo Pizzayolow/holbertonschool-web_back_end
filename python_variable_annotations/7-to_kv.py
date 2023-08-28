@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""kv"""
+"""return a tuple str and a squared of int or float"""
 from typing import Union, List, Dict, Tuple
 
 
