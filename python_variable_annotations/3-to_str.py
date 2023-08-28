@@ -2,6 +2,6 @@
 """float to str"""
 
 
-def floor(n: float) -> str:
+def to_str(n: float) -> str:
     """return an str representation of a float"""
     return str(n)
