@@ -8,7 +8,6 @@ async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 async def measure_runtime() -> float:
     """measure time"""
-    list = []
     n = 4
     start_time = time.time()
     coros = [async_comprehension() for i in range(n)]
