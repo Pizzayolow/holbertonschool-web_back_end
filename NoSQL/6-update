@@ -1,0 +1,2 @@
+// update and set a new attribute
+db.school.updateMany({"name":"Holberton school"}, ("$set": {"adress":"972 Mission Street"})
