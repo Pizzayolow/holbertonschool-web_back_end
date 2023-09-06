@@ -60,7 +60,6 @@ class Server:
         else:
             next_page = page + 1
 
-        
         total_page = math.ceil(len(dataset) / page_size)
 
         new_dict = {
