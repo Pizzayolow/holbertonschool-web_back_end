@@ -1,15 +1,15 @@
 export class HolbertonClass {
   constructor(year, location) {
-    this._year = year;
-    this._location = location;
+    this.year = year;
+    this.location = location;
   }
 
   get year() {
-    return this._year;
+    return this.year;
   }
 
   get location() {
-    return this._location;
+    return this.location;
   }
 }
 
