@@ -3,7 +3,10 @@ export default function cleanSet(inputSet, startString) {
   if (startString !== '') {
     // Convert the Set to an array for easier manipulation
     const setArray = Array.from(inputSet);
-
+    while (setArray.indexOf(undefined) !== -1) {
+      const index = setArray.indexOf(undefined);
+      setArray.splice(index, 1);
+    }
     // Use the filter() method to keep only the values that start with startString
     const filteredArray = setArray.filter((value) => value.startsWith(startString));
 
