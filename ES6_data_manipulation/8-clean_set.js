@@ -1,5 +1,9 @@
 export default function cleanSet(inputSet, startString) {
   const emptyStr = '';
+  if (typeof startString !== 'string') {
+    return emptyStr;
+  }
+
   if (startString !== '') {
     // Convert the Set to an array for easier manipulation
     const setArray = Array.from(inputSet);
